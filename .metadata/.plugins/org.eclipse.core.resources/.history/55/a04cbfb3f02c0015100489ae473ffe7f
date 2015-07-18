@@ -1,0 +1,13 @@
+package com.chat.dao;
+
+public interface GenericDAO<T> {
+
+	
+	
+	void sendMessage(String message);
+	
+	void sendMessage(T message);
+	
+	
+	
+}

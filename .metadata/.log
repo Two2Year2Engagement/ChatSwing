@@ -1,0 +1,43 @@
+!SESSION 2015-07-17 22:53:30.025 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.7.0 IBM J9 2.6 Windows 7 amd64-64 Compressed References 20130306_140761 (JIT enabled, AOT enabled)
+J9VM - R26_Java726_SR4_FP1_20130306_1011_B140761
+JIT  - r11.b03_20130131_32403ifx1
+GC   - R26_Java726_SR4_FP1_20130306_1011_B140761_CMPRSS
+J9CL - 20130306_140761
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product com.ibm.rational.rad.product.v9.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.ibm.rational.rad.product.v9.ide
+
+!ENTRY com.ibm.ws.util.ImplFactory 2 900 2015-07-17 22:55:23.456
+!MESSAGE WSVR0072W
+
+!ENTRY com.ibm.websphere.management.AdminClientFactory 2 900 2015-07-17 22:55:23.650
+!MESSAGE ADMC0046W
+
+!ENTRY com.ibm.ws.ssl.config.SSLConfig 2 900 2015-07-17 22:55:23.988
+!MESSAGE ssl.default.password.in.use.CWPKI0041W
+
+!ENTRY com.ibm.ws.ssl.config.SSLConfigManager 1 800 2015-07-17 22:55:23.994
+!MESSAGE ssl.disable.url.hostname.verification.CWPKI0027I
+
+!ENTRY com.ibm.ws.security.config.SecurityObjectLocator 1 800 2015-07-17 22:55:24.741
+!MESSAGE Client code attempting to load security configuration
+
+!ENTRY com.ibm.ws.security.config.SecurityObjectLocator 1 800 2015-07-17 22:55:30.702
+!MESSAGE Client code attempting to load security configuration
+
+!ENTRY com.ibm.ISecurityLocalObjectBaseL13Impl.SecurityConnectionInterceptor 1 850 2015-07-17 22:55:30.717
+!MESSAGE security.LoadSCI
+
+!ENTRY com.ibm.ISecurityUtilityImpl.ServiceInit 1 850 2015-07-17 22:55:30.720
+!MESSAGE security.GettingConfig
+
+!ENTRY com.ibm.ISecurityUtilityImpl.ServiceInit 1 850 2015-07-17 22:55:30.750
+!MESSAGE security.AuthTarget
+
+!ENTRY com.ibm.ISecurityLocalObjectBaseL13Impl.CSIClientRI 1 850 2015-07-17 22:55:30.884
+!MESSAGE security.ClientCSI
+
+!ENTRY com.ibm.ws.security.config.SecurityObjectLocator 1 800 2015-07-17 22:55:31.435
+!MESSAGE Client code attempting to load security configuration
