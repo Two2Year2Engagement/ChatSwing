@@ -1,0 +1,31 @@
+<ivy-module version="2.0">
+	<info organisation="org.apache" module="build-ivy" />
+	<configurations>
+        <conf name="sources"  description="Source jars"/>
+        <conf name="binaries" description="binary jars"/>
+    </configurations>
+	<dependencies>
+		<dependency org="commons-lang" name="commons-lang" rev="2.0" conf="sources->sources" />
+		<dependency org="commons-cli" name="commons-cli" rev="1.0" conf="sources->sources"/>
+		<dependency org="org.springframework" name="spring-context"
+			rev="4.1.4.RELEASE" conf="sources->sources"/>
+		<dependency org="org.springframework" name="spring-test"
+			rev="4.1.4.RELEASE" conf="sources->sources"/>
+		<dependency org="org.hibernate" name="hibernate-validator"
+			rev="5.1.3.Final" conf="sources->sources"/>
+		<dependency org="org.hibernate" name="hibernate-entitymanager"
+			rev="4.3.10.Final" conf="sources->sources"/>
+<dependency org="mysql" name="mysql-connector-java" rev="5.1.36" conf="sources->sources"/>
+
+		<dependency org="joda-time" name="joda-time" rev="2.8.1" />
+		<dependency org="junit" name="junit" rev="4.12" conf="sources->sources"/>
+		<dependency org="org.hamcrest" name="hamcrest-all" rev="1.3" conf="sources->sources"/>
+		<!-- <dependency org="org.modelmapper" name="modelmap" rev="0.7.4" conf="sources->sources"/> -->
+		<dependency org="org.apache.derby" name="derby" rev="10.11.1.1" conf="sources->sources"/>
+		<dependency org="org.apache.logging.log4j" name="log4j"
+			rev="2.3" conf="sources->sources"/>
+		<dependency org="org.slf4j" name="slf4j-migrator" rev="1.7.12" conf="sources->sources"/>
+		<dependency org="org.jfree" name="jfreechart" rev="1.0.19" conf="sources->sources"/>		
+		<dependency org="com.google.code.findbugs" name="jsr305" rev="3.0.0" conf="sources->sources"/>
+	</dependencies>
+</ivy-module>
