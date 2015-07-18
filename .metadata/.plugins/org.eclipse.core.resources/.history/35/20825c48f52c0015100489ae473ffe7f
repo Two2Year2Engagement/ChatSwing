@@ -1,0 +1,11 @@
+import com.chat.controller.Controller;
+
+
+public interface PrincipalController {
+
+
+	List<Controller> getControllerList();
+	
+	
+	
+}

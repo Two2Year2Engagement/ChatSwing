@@ -1,0 +1,7 @@
+
+public interface Principalcontroller {
+
+	PrincipalController getInstance();
+	
+	
+}

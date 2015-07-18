@@ -1,0 +1,5 @@
+package com.chat.gui;
+
+public class TextAreaPanel {
+
+}
