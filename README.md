@@ -4,6 +4,8 @@
 
 @see http://www.cise.ufl.edu/~amyles/tutorials/tcpchat/
 
+@see http://www.oracle.com/technetwork/java/architecture-142923.html#modified_mvc
+
 Swing Models
 
 Component 	Model Interface 	Model Type
