@@ -1,0 +1,27 @@
+package com.chat.gui.model;
+
+import javax.swing.text.AbstractDocument;
+import javax.swing.text.Element;
+
+public class DocumentModel extends AbstractDocument{
+	
+	private static final long serialVersionUID = 8509861209454703243L;
+
+	protected DocumentModel(Content data) {
+		super(data);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public Element getDefaultRootElement() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Element getParagraphElement(int pos) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

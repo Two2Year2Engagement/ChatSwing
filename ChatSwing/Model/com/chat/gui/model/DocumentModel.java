@@ -14,7 +14,7 @@ public class DocumentModel extends AbstractDocument{
 
 	@Override
 	public Element getDefaultRootElement() {
-		// TODO Auto-generated method stub
+		
 		return null;
 	}
 

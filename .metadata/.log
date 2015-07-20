@@ -230,3 +230,6 @@ org.eclipse.core.runtime.CoreException: No property tester contributes a propert
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
 !SUBENTRY 1 org.eclipse.core.expressions 4 201 2015-07-17 23:10:22.941
 !MESSAGE No property tester contributes a property org.eclipse.core.resources.projectNature to type class org.eclipse.ant.internal.ui.model.AntTargetNode
+
+!ENTRY javax.management.remote.misc 2 900 2015-07-20 08:03:35.798
+!MESSAGE Failed to check the connection: org.omg.CORBA.TRANSIENT: initial and forwarded IOR inaccessible  vmcid: IBM  minor code: E07  completed: No
