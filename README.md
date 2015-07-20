@@ -20,7 +20,9 @@
         The model notifies the view when its state has changed. When something changes in the model, based either on some action you took (like clicking a button) or some other internal change (like the next song in the playlist has started), the model notifies the view that its state has changed.
         
         The view asks the model for state. The view gets the state it displays directly from the model. For instance, when the model notifies the view that a new song has started playing, the view requests the song name from the model and displays it. The view might also ask the model for state as the result of the controller requesting some change in the view.
-[2004]Head First Design Patterns by Freeman and Freeman
+    [2004]Head First Design Patterns by Freeman and Freeman
+    @see http://stackoverflow.com/questions/5217611/the-mvc-pattern-and-swing    
+    
 
 
 
