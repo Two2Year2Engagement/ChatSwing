@@ -10,7 +10,7 @@ import javax.swing.JPanel;
  */
 public class TextAreaPanel extends JPanel implements Comparable {
 
-		
+	//teste	
 	@Override
 	public boolean equals(Object o) {
 		// TODO Auto-generated method stub
