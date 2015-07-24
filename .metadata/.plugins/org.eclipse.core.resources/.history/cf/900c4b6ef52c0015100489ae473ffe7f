@@ -1,7 +1,0 @@
-package com.chat.controller;
-
-public interface Controller implements ActionListner {
-
-	
-	
-}
