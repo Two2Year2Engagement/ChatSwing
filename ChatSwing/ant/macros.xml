@@ -185,7 +185,7 @@
 			<echo>Arquivo de Manifesto: </echo>
 			<echo>Pasta base dos aquivos compilados: </echo>
 			<echo>Pasta das bibliotecas usadas: </echo>
-			<jar destfile="@{diretorioDeDestinoDoJar}" basedir="bin"
+			<jar destfile="@{diretorioDeDestinoDoJar}" basedir="build"
 				manifest="@{arquivoDeManifesto}">
 				<zipfileset dir="lib" includes="*.jar" />
 			</jar>
