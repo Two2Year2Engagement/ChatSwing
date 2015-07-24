@@ -1,5 +1,6 @@
 <ivysettings>
-  <settings defaultResolver="chain"/>  
+  <settings defaultResolver="chain"/>    
+    <caches defaultCacheDir="C:\temp\cache"  />
   <resolvers>  
     <chain name="chain">
       <ibiblio name="central" m2compatible="true"/>

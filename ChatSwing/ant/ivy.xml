@@ -16,6 +16,7 @@
 		<dependency org="org.hibernate" name="hibernate-entitymanager"
 			rev="4.3.10.Final" conf="sources->sources"/>
 <dependency org="mysql" name="mysql-connector-java" rev="5.1.36" conf="sources->sources"/>
+	<!--  <dependency org="com.google.guava" name="guava" rev="17.0" conf="sources->sources"/>-->
 
 		<dependency org="joda-time" name="joda-time" rev="2.8.1" />
 		<dependency org="junit" name="junit" rev="4.12" conf="sources->sources"/>
