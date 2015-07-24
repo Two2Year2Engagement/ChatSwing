@@ -9,9 +9,9 @@
 	</path>
 	
 	
-	<target name="criar-Executavel"  depends="limpar,criar-Pastas,ivy-report,compilar,criar-Manifesto,criar-Jar" />
+	<target name="criar-Executavel"  depends="limpar,criar-Pastas,resolve,compilar,criar-Manifesto,criar-Jar" />
 	
-	<target name="criar-Executavel-snap"  depends="limpar,criar-Pastas,compilar,criar-Manifesto,criar-Jar" />
+	<target name="criar-Executavel-snap"  depends="limpar,criar-Pastas,resolve-without-cache,compilar,criar-Manifesto,criar-Jar" />
 
 	
 	<target name="limpar">

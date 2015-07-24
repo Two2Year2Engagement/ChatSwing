@@ -1,0 +1,14 @@
+<ivysettings>
+  <settings defaultResolver="chain"/>    
+  <resolvers>  
+    <chain name="chain">
+      <ibiblio name="central" m2compatible="true"/>
+      <url name="test" m2compatible="true">
+ 		 <artifact pattern="https://repo1.maven.org/maven2/[organisation]/[module]/[revision]/[artifact]-[revision].[ext]"/>
+	  </url>
+    </chain>
+  </resolvers>
+</ivysettings>
+
+<!-- http://central.sonatype.org/pages/consumers.html#apache-ivy-and-apache-ant -->
+<!-- https:/ -->

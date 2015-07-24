@@ -1,26 +1,33 @@
-<project xmlns:ivy="antlib:org.apache.ivy.ant" name="build-ivy" default="ivy_report"  basedir=".">
-     
+<project xmlns:ivy="antlib:org.apache.ivy.ant" name="build-ivy" default="ivy_report" basedir=".">
 
-   <path id="ivy.lib.path">
-    <fileset dir="lib" includes="ivy-2.4.0.jar"/>
-</path>
-  <taskdef resource="org/apache/ivy/ant/antlib.xml"
-         uri="antlib:org.apache.ivy.ant" classpathref="ivy.lib.path"/>
-    
-	 <property name="ivy.default.ivy.user.dir" value="${basedir}/ant"/>
-	    <property name="ivy.dep.file" value="${basedir}/ant/ivy.xml" />
-	    <property name="ivy.default.ivy.user.dir" value="${basedir}/ant/ivysettings.xml"/>
-    <!-- ================================= 
-          target: resolve              
-         ================================= -->
-    <target name="resolve" description="--> retrieve dependencies with ivy">
-    	<ivy:settings file="${basedir}/ant/ivysettings.xml"/>
-       <ivy:retrieve conf="sources" pattern="lib/[artifact](-[classifier]).[ext]"  />
-    </target>
-    
-   <target   name="ivy-report" depends="resolve">
-   <mkdir dir="ivy_reports"/>
-   <ivy:report todir="ivy_reports" ></ivy:report> 
-   
-   </target> 
+
+	<path id="ivy.lib.path">
+		<fileset dir="lib" includes="ivy-2.4.0.jar" />
+	</path>
+	<taskdef resource="org/apache/ivy/ant/antlib.xml" uri="antlib:org.apache.ivy.ant" classpathref="ivy.lib.path" />
+
+	<property name="ivy.default.ivy.user.dir" value="${basedir}/ant" />
+	<property name="ivy.dep.file" value="${basedir}/ant/ivy.xml" />
+	<property name="ivy.default.ivy.user.dir" value="${basedir}/ant/ivysettings.xml" />
+
+	<target name="resolve" description="--> retrieve dependencies with ivy">
+		<ivy:settings file="${basedir}/ant/ivysettings-local.xml" />
+		<ivy:retrieve conf="sources" pattern="lib/[artifact](-[classifier]).[ext]" />
+	
+	</target>
+
+	<target name="resolve-without-cache" description="--> retrieve dependencies with ivy without cache">
+		<ivy:settings file="${basedir}/ant/ivysettings-cache.xml" />
+		<ivy:retrieve conf="sources" pattern="lib/[artifact](-[classifier]).[ext]" />
+		<ivy:cleancache />
+	</target>
+
+
+
+	<target name="ivy-report" depends="resolve">
+		<mkdir dir="ivy_reports" />
+		<ivy:report todir="ivy_reports">
+		</ivy:report>
+
+	</target>
 </project>

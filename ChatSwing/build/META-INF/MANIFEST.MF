@@ -6,7 +6,7 @@ Main-Class: com.study.MySweetDiary
 
 Name: common
 Specification-Title: MySweetDiary
-Specification-Version: 1.0.20150724.154853
+Specification-Version: 1.0.20150724.163335
 Specification-Vendor: Rafael/William
 Class-Path: lib/commons-cli-sources.jar lib/commons-lang-sources.jar l
  ib/guava-18.0%20.jar lib/hamcrest-all-sources.jar lib/hibernate-entit
