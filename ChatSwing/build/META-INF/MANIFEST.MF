@@ -1,20 +1,22 @@
 Manifest-Version: 1.0
-Ant-Version: Apache Ant 1.8.3
-Created-By: 1.8.0_51-b16 (Oracle Corporation)
+Ant-Version: Apache Ant 1.9.2
+Created-By: pwa6470sr4fp1ifx-20130423_02 (SR4 FP1+IV38579+IV38399+IV40
+ 208) (IBM Corporation)
 Built-By: Rafael/William
 Main-Class: com.study.MySweetDiary
 
 Name: common
 Specification-Title: MySweetDiary
-Specification-Version: 1.0.20150717.231425
+Specification-Version: 1.0.20150724.110346
 Specification-Vendor: Rafael/William
 Class-Path: lib/commons-cli-sources.jar lib/commons-lang-sources.jar l
- ib/hamcrest-all-sources.jar lib/hibernate-entitymanager-sources.jar l
- ib/hibernate-validator-sources.jar lib/ivy-2.4.0.jar lib/jfreechart-s
- ources.jar lib/joda-convert.jar lib/joda-time-javadoc.jar lib/joda-ti
- me-sources.jar lib/joda-time.jar lib/jsr305-sources.jar lib/junit-sou
- rces.jar lib/mysql-connector-java-sources.jar lib/slf4j-migrator-sour
- ces.jar lib/spring-context-sources.jar lib/spring-test-sources.jar
+ ib/guava-18.0%20.jar lib/hamcrest-all-sources.jar lib/hibernate-entit
+ ymanager-sources.jar lib/hibernate-validator-sources.jar lib/ivy-2.4.
+ 0.jar lib/jfreechart-sources.jar lib/joda-convert.jar lib/joda-time-j
+ avadoc.jar lib/joda-time-sources.jar lib/joda-time.jar lib/jsr305-sou
+ rces.jar lib/junit-sources.jar lib/mysql-connector-java-sources.jar l
+ ib/slf4j-migrator-sources.jar lib/spring-context-sources.jar lib/spri
+ ng-test-sources.jar
 
 Name: None
 Sealed: false

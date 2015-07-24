@@ -6,6 +6,7 @@ import java.util.List;
 
 import com.chat.controller.Controller;
 import com.chat.controller.PrincipalController;
+import com.google.common.base.Objects;
 /**
  * 
  * @author wahrons
@@ -43,6 +44,11 @@ public class PrincipalControllerImpl implements PrincipalController {
 		
 		
 	}
+
+
+
+
+	
 
 
 	
