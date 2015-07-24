@@ -1,5 +1,7 @@
 # ChatSwing
 
+[![Build Status](https://snap-ci.com/Two2Year2Engagement/ChatSwing/branch/master/build_image)](https://snap-ci.com/Two2Year2Engagement/ChatSwing/branch/master)
+
 @see http://wiki.sj.ifsc.edu.br/wiki/index.php/Trabalhando_com_sockets_TCP_em_Java
 
 @see http://www.cise.ufl.edu/~amyles/tutorials/tcpchat/
